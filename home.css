@@ -1,0 +1,156 @@
+html { 
+	background-color:#F6F7F8;
+    font-family: 'Quicksand', sans-serif;
+	font-size:14px;
+}
+
+
+a {
+	text-decoration:none;
+}
+#main {
+	margin:70px auto 0;
+	text-align:center;
+}
+#logo{ 
+	text-align:right;
+    padding-right: 3%;
+    display:block;
+    float:right;
+}
+#logo h1 {
+	font-weight:bold;
+	color:#323442;
+	letter-spacing: 5px;
+	
+}
+#line { 
+	padding: 0 10px;
+	margin: 0 100px;
+}
+#mainlist {
+    width:40%;
+    display: block;
+	padding:10px ;
+    text-align: left;
+    float: left;
+}
+#mainlist li {
+	display:inline;
+	padding:auto  6px;
+	margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition:ease-in-out .35s;
+}
+#mainlist li:hover {
+    border-bottom : 1px solid darkgrey;
+    color: darkgrey;
+}
+#mainlist li a {
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#323442;
+	padding:10px 33%;
+	transition:all .3s;
+	outline:none;
+	letter-spacing: 5px;
+}
+#mainlist li a:hover {
+	border:15px solid #868690;
+	color:#484C61;
+	/*box-shadow:6px 7px #383A4A;*/
+	transition:all .35s;	
+	letter-spacing: 7px;
+
+}
+#footertext {
+    text-decoration: none;
+    margin: 25px auto 25px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: .7em;
+    color: #323442;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 50px;
+}
+i {
+    color: darkgrey;
+    padding:0px 10px
+}
+
+i:hover {
+    color: inherit;
+    transition:ease-in-out .35s;
+}
+
+body {
+    height: 100%;
+    margin: auto;
+}
+
+#center {
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+}
+/* for blogs and resume page */
+
+p {
+    padding: 0 10%;
+    color: #323442;
+}
+
+pre {
+    display:block;
+    font-size:90%;
+    border: 1px solid;
+    border-radius: 4px;
+    padding:10px;
+    background-color: #151515;
+    color: #D7D0C7;
+    white-space: pre;
+    margin: auto 10%;
+}
+
+#mainimg{
+    padding:10px 10px;
+    display: block;
+    float:none;
+    height:50px;
+    width:50px;
+}
+/*test zone 
+.content {
+  min-height: calc(100vh - 30vh);
+}
+*/
+#block{
+    display: block;
+    text-align:left;
+}
+/*vertical menu on small screens*/
+@media only screen and (max-width: 500px) {
+    #logo{
+        text-align:center;
+        float:center;
+    }
+	#mainlist li { 
+        float:center;
+		width:100%;	
+        margin-top:50px;
+        text-align:center;
+	}
+	#mainlist li a{
+		position:relative;
+	}
+	#main {
+		margin:auto;
+		text-align:center;
+	}
+}
